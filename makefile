@@ -7,7 +7,7 @@ default: all
 all: $(TARGETS)
 
 lsclone: lsclone.c
-	$(CC) $(CFLAGS) lsclone.c -o lsclone
+	$(CC) $(CFLAGS) lsclone.c -o lsclone.out
 
 clean:
 	rm -f *.o *~ a.out $(TARGETS)
